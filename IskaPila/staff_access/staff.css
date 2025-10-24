@@ -1,0 +1,138 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("../mainback.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+ul.hdrr{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 176, 231);
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+ul.hdrr li{
+    float: left;
+}
+
+ul.hdrr li.hdrr{
+    padding: 14px 16px;
+    text-align: right;
+    display: block;
+}
+
+ul.hdrr a{
+    text-decoration: none;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 15px;
+    font-size: 20px;
+}
+
+ul.hdrr a:hover{
+    color:rgb(165, 86, 86);
+    background-color: antiquewhite;
+}
+
+#welcome{
+    font-size: 20px;
+    text-align: right;
+    position: relative;
+    right: 20px;
+    bottom: 95px;
+}
+
+
+table.noborder{
+    width: 300px;
+}
+
+table.bview{
+    border-style: solid;
+    box-shadow: 0px 0px 5px black;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    background: rgb(248, 237, 218);
+}
+
+table.bview1{
+    border-style: solid;
+    box-shadow: 0px 0px 5px black;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    background: rgb(248, 237, 218);
+}
+
+table.li1{
+    border-style: solid;
+    box-shadow: 0px 0px 5px black;
+    border-width: 2px;
+    border-radius: 5px;
+    text-align: center;
+    background: rgb(248, 237, 218);
+    word-wrap: break-word;
+    width: 1300px;
+}
+
+table.li1 th.hdrr{
+    font-size: 30px;
+}
+
+
+table.info{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    background: rgb(248, 237, 218);
+    box-shadow: 0px 0px 5px black;
+}
+
+table.settings{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 1200px;
+    text-align: center;
+    background: rgb(248, 218, 218);
+    box-shadow: 0px 0px 5px black;
+}
+
+
+#t2{
+    border-style: dotted;
+    border-color: rgba(255, 0, 0, 0.374);
+    border-width: 2px;
+    border-radius: 5px;
+    text-align: center;
+    width: 490px;
+}
+
+#nc{
+    text-align: center;
+    font-size: 50px;
+}
+
+#imp{
+    color: red;
+}
+
+
+
+
