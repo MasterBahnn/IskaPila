@@ -17,7 +17,7 @@ Furthermore, the User Management module includes functions such as add_user, edi
 Thank you for using the program. I noticed that the program have some issues and bugs appearing, I would release an update in a near future. You can able to tweak some parts of the code, you have freedom to do so. That's all thank you.
 
 
-**Program by:** 
+**Program by:** <br>
 Matthew Kristoff B. Gonzales <br>
 Roanne Joy R. Segui
 # 
