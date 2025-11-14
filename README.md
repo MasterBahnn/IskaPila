@@ -1,6 +1,7 @@
 # IskaPila
-Admission Queue Management System or
-“A Web-Based Admission Queue and Inquiry Information System with Queue Code Generation and Time Logging.” 
+Admission Queue Management System - <br>
+“A Web-Based Admission Queue and Inquiry Information System with Queue Code Generation and Time Logging.”
+
 This system aims to automate and streamline the queueing and inquiry processes in the admission office through a fully functional, user-friendly, and data-structured web application. It is designed to modernize the traditional process by integrating real-time queue management, user account handling, and local data storage in a single interactive platform.
 
 This consists of several core modules that ensure systematic handling of admission transactions. The Dashboard serves as the main control hub where administrators can view the current queue, monitor desk activities, and access various modules. The Queue List feature displays all active and pending student concerns, ordered according to their queue position. It allows users to easily track and update queue information. The delete_item function lets administrators remove processed or invalid queue records to maintain order and data accuracy.
@@ -16,9 +17,9 @@ Furthermore, the User Management module includes functions such as add_user, edi
 Thank you for using the program. I noticed that the program have some issues and bugs appearing, I would release an update in a near future. You can able to tweak some parts of the code, you have freedom to do so. That's all thank you.
 
 
-Program by:
-Matthew Kristoff B. Gonzales
+**Program by:** 
+Matthew Kristoff B. Gonzales <br>
 Roanne Joy R. Segui
-
+# 
 All Rights Reserved @2025 
 
