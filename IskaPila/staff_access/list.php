@@ -57,30 +57,32 @@
     //  sends data to the database
     if($_SERVER['REQUEST_METHOD'] === 'POST'){
         if(isset($_POST["enqueue"])){
-            if($sub >= $queue_data->MAX_QUEUE - 1){ 
+            if($sub >= $queue_data->MAX_QUEUE){ 
                 $_SESSION["alert"] = "Queue is already full. Please try again later";
                 header("Location: list.php?msg-error");
-            } 
-            date_default_timezone_set("Asia/Manila");
+            } else{
+                date_default_timezone_set("Asia/Manila");
 
-            $Name = trim($_POST['name']??'');
-            $Concern = trim($_POST["concern"]??'');
-            $Notes = trim($_POST["notes"]??'none');
-            $Email = trim($_POST["email"]??'none');
-            $submission_date = date("d/m/y h:i:sa");
-            type_finder($Concern, $type, $id, $pos);
-            $Ref_no = rand(10000, 99999);
-            $current_date = date("d/m/y h:i:sa");
-            
+                $Name = trim($_POST['name']??'');
+                $Concern = trim($_POST["concern"]??'');
+                $Notes = trim($_POST["notes"]??'none');
+                $Email = trim($_POST["email"]??'none');
+                $submission_date = date("d/m/y h:i:sa");
+                type_finder($Concern, $type, $id, $pos);
+                $Ref_no = rand(10000, 99999);
+                $current_date = date("d/m/y h:i:sa");
                 
-            // preparing sql on inserting values to database
-            $submit = $mysqli->prepare("INSERT INTO queue_orders(pos, Name, Concern, Notes, Email, Submission_date, Type, ID, REF) VALUES (?,?,?,?,?,?,?,?,?)");
-            $submit->bind_param('issssssii', $pos, $Name, $Concern, $Notes, $Email, $submission_date, $type, $id, $Ref_no);
-            if(!$submit->execute()){
-                $_SESSION["alert"] = "Insert Failed: {$stmt->error}";
+                    
+                // preparing sql on inserting values to database
+                $submit = $mysqli->prepare("INSERT INTO queue_orders(pos, Name, Concern, Notes, Email, Submission_date, Type, ID, REF) VALUES (?,?,?,?,?,?,?,?,?)");
+                $submit->bind_param('issssssii', $pos, $Name, $Concern, $Notes, $Email, $submission_date, $type, $id, $Ref_no);
+                if(!$submit->execute()){
+                    $_SESSION["alert"] = "Insert Failed: {$stmt->error}";
+                }
             }
+            
 
-            header("Location: list.php?msg-enqueued");
+            header("Location: list.php");
         } else if(isset($_POST["truncate"])){
             dequeue_all();
         } else if (isset($_POST["search"])){

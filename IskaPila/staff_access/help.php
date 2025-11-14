@@ -143,7 +143,7 @@
                     </ul>
                     
                     <br>
-                    Version info: 1.0.1 <br>
+                    Version info: 1.0.2 <br>
                     All rights reserved 2025
                 </div></td>
             </tr>

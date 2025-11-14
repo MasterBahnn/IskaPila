@@ -4,7 +4,7 @@
     include "queue_config.php";
 
 
-    if($sub >= $queue_data->MAX_QUEUE - 1){ 
+    if($sub >= $queue_data->MAX_QUEUE){ 
         session_start();
         $_SESSION["alert"] = "Queue is already full. Please try again later";
         header("Location: viewqueue.php?msg-queuefull");
