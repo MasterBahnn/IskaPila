@@ -143,7 +143,7 @@
                     </ul>
                     
                     <br>
-                    Version info: 1.0.2 <br>
+                    Version info: 1.0.3 <br>
                     All rights reserved 2025
                 </div></td>
             </tr>
@@ -152,4 +152,5 @@
         <p align="center"></p>
 
     </body>
+
 </html>
