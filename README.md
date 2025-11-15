@@ -7,6 +7,8 @@ This system aims to automate and streamline the queueing and inquiry processes i
 This consists of several core modules that ensure systematic handling of admission transactions. The Dashboard serves as the main control hub where administrators can view the current queue, monitor desk activities, and access various modules. The Queue List feature displays all active and pending student concerns, ordered according to their queue position. It allows users to easily track and update queue information. The delete_item function lets administrators remove processed or invalid queue records to maintain order and data accuracy.
 Furthermore, the User Management module includes functions such as add_user, edit_user, change_user, and delete_user, allowing administrators to securely manage system accounts and control access privileges. The Queue Configuration (queue_config) module enables customization of queue size, display options, and system preferences, while also keeping detailed logs of all changes and transactions for transparency and traceability. 
 
+**PUBLISHED WEBSITE: https://iskapila.page.gd/**
+
 **HOW TO SET UP ISKAPILA?**
 1. Unzip the downloaded file from this repository or go to releases for downloading other versions
 2. This file using *XAMPP* as a database and also a localhost for running the program, particularly PHP programs, move the unzipped file from to the htdocs folder from the xampp folder.
