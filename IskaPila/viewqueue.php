@@ -33,7 +33,7 @@
     <body>
         <ul class="hdrr">
             <li><img src="menu.png" width="60px" height="50px"></li>
-            <li><a href="menu.html">Menu</a></li>
+            <li><a href="index.html">Menu</a></li>
             <li><a href="viewqueue.php">View Queue</a></li>
             <li><a href="inquire.php">Apply Queue</a></li>
             <li><a href="help.html">Help</a></li>

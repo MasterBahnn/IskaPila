@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="icon" type="image/x-icon" href="web_favi.png">
+        <style>
+            #title1{
+                font-size: 40px;
+                text-shadow: 0px 0px 10px rgb(255, 241, 160);
+                text-align: center;
+            }
+
+            #box1{
+                border-style: solid;
+                border-width: 2px;
+                border-radius: 5px;
+                text-align: center;
+                background: white;
+                box-shadow: 0px 0px 5px black;
+            }
+
+            #info1{
+                border-style: solid;
+                border-width: 2px;
+                border-radius: 5px;
+                width: 300px;
+                height: 160px;
+                background: white;
+                box-shadow: 0px 0px 5px black;
+                font-size: 15px;
+            }
+
+            a.linkin{
+                text-decoration: none;
+                font-size: 30px;
+                color: rgb(98, 0, 0);
+            }
+
+            a.linkin:hover{
+                color: rgb(255, 125, 125);
+            }
+        </style>
+    </head>
+    <body>
+        <ul class="hdrr">
+            <li><img src="menu.png" width="60px" height="50px"></li>
+            <li><a href="index.html">Menu</a></li>
+            <li><a href="viewqueue.php">View Queue</a></li>
+            <li><a href="inquire.php">Apply Queue</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="login.php">Log In</a></li>
+        </ul>
+        <br>
+
+        <table align="center" class="search">
+            <tr>
+                <td>
+                    <img src="menu.png" width="200px" height="160px">
+                    <h1 id="title1">Welcome to IskaPila</h1>
+                </td>
+            </tr>
+        </table>
+        <br>
+        
+        <table align="center">
+            <tr>
+                <td>
+                    <img id="box1" src="menu_pic1.png" width="100%"height="200px">
+                </td>
+                <td id="info1"> <div style="margin: 10px;">
+                    <a href="inquire.php" class="linkin">APPLY QUEUE</a> <hr>
+                    <p>To enter a queue, you can fill an information here to enqueue to the admissions queueing system</p>
+                </div>
+                </td>
+            </tr>
+            <tr>
+                <td id="info1"> <div style="margin: 10px;">
+                    <a href="viewqueue.php" class="linkin">VIEW QUEUE</a> <hr>
+                    <p>This is where you view the desk call on the enqueued inquiried. And also you can search using your reference number from the inquired form to find your placement here.</p>
+                </div>
+                </td>
+                <td>
+                    <img id="box1" src="menu_pic2.png" width="100%"height="200px">
+                </td>
+            </tr>
+        </table>
+        <br>
+
+        <table align="center" class="search">
+            <tr>
+                <td>
+                    For more questions, you can ask the admission staff regarding the queue information and form or queue issues.
+                </td>
+            </tr>
+        </table>
+        <br>
+
+    </body>
+</html>
